@@ -1,12 +1,11 @@
-public class HW_PRIM
+public class HWPRIM
 {
+    public static void main(String[] main) {
 
-    public static void main(String[] args) {
 
-        int price;
+        int price = 25365;
         int bonusesPer = 20;
-        price = (int) (Math.random() * (50000 - 20)) + 20;
-        int bonuses = price / bonusesPer;
-        System.out.println(bonuses);
+        int miles = price / bonusesPer;
+        System.out.println(miles);
     }
-}
+    }
